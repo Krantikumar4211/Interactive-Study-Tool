@@ -1,0 +1,123 @@
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* App Layout */
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+/* Input Section */
+.input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.input-group button {
+  padding: 12px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.input-group button:hover {
+  background: #1e40af;
+}
+
+.input-group button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Answer Box */
+.answer-box {
+  background: #f9fafb;
+  border-left: 4px solid #2563eb;
+  padding: 14px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Video Summary */
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.video-card {
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.video-card h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.video-card p {
+  font-size: 15px;
+  color: #374151;
+}
+
+.loading {
+  color: #6b7280;
+  font-style: italic;
+}
